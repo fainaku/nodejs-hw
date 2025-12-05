@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fainaku/nodejs-hw.git"
+  },
+  "keywords": [],
+  "author": "Faina Kusiaka <fayina1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fainaku/nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/fainaku/nodejs-hw#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "pino-http": "^11.0.0",
+    "pino-pretty": "^13.1.3"
+  }
+}
